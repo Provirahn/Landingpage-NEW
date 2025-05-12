@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REAL LIFE Workshop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      background-color: #0a0a0a;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #0d0d0d;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .logo-img {
+      max-width: 500px;
+      height: auto;
+      margin-bottom: 10px;
+      filter: drop-shadow(0 0 10px #00f0ff);
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #00f0ff;
+      text-shadow: 0 0 8px #00f0ff;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 18px;
+      color: #ddd;
+    }
+
+    form {
+      background-color: #111;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00f0ff20;
+      margin-top: 40px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      color: #00f0ff;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 12px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+      background-color: #1a1a1a;
+      color: #fff;
+      box-shadow: 0 0 5px #00f0ff30 inset;
+    }
+
+    .cta {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .cta button {
+      background: #00f0ff;
+      color: #000;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 0 15px #00f0ff;
+      transition: all 0.3s ease;
+    }
+
+    .cta button:hover {
+      background: #0ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="REAL LIFE Logo" class="logo-img" />
+</header>
+
+<section class="content">
+  <h1>Kostenloser Workshop zu Aktien & Immobilien</h1>
+  <p>ETFs und Immobilien sind große Buzzwords der letzten Jahre. Du hast trotzdem noch viele offene Fragen? Die beantworten wir dir bei unseren Workshops in entspannter Atmosphäre – und ganz ohne komplizierte Fachwörter.</p>
+
+  <h2>Was bekommst du?</h2>
+  <p>Alle Basics für deinen erfolgreichen Start im Vermögensaufbau – ganz von Level 1 an. Keine Frage ist zu einfach. Jeder Workshop kann sich an eure Interessen anpassen.</p>
+  <p>Nach dem Workshop brauchst du noch Support? Kein Problem – wir beraten dich gerne weiter!</p>
+
+  <form action="https://api.sheetmonkey.io/form/bD4qwT6FUhw5hMKAJQ9ikd" method="POST">
+    <label for="vorname">Vorname:</label>
+    <input type="text" id="vorname" name="Vorname" required>
+
+    <label for="nachname">Nachname:</label>
+    <input type="text" id="nachname" name="Nachname" required>
+
+    <label for="email">E-Mail Adresse:</label>
+    <input type="email" id="email" name="E-Mail" required>
+
+    <label for="handy">Handynummer:</label>
+    <input type="tel" id="handy" name="Handynummer" required>
+
+    <label for="termin">Wähle deinen Termin:</label>
+    <select id="termin" name="Termin" required>
+      <option value="">-- Bitte wählen --</option>
+      <option value="10.06">10.06. – Vonovia Ruhrstadion (18:00–21:00 Uhr)</option>
+      <option value="07.07.">07.07. – Vonovia Ruhrstadion (18:00–21:00 Uhr)</option> 
+      <option value="27.08.">27.08. – Vonovia Ruhrstadion (18:00–21:00 Uhr)</option>    
+      <option value="25.09.">25.09. – Vonovia Ruhrstadion (18:00–21:00 Uhr)</option>  
+      <option value="18.10.">18.10. – Signal Iduna Park (18:30–21:30 Uhr)</option>
+    </select>
+
+    <label for="branche">Kommst Du aus der Versicherungs- und/oder Finanzbranche?</label>
+    <select id="branche" name="Versicherungs-/Finanzbranche" required>
+      <option value="">-- Bitte wählen --</option>
+      <option value="Ja">Ja</option>
+      <option value="Nein">Nein</option>
+    </select>
+
+    <label for="alter">Wie alt bist Du?</label>
+    <select id="alter" name="Alter" required>
+      <option value="">-- Bitte wählen --</option>
+      <option value="18 bis 29 Jahre">18 bis 29 Jahre</option>
+      <option value="30 bis 40 Jahre">30 bis 40 Jahre</option>
+      <option value="40 bis 64 Jahre">40 bis 64 Jahre</option>
+      <option value="über 64 Jahre">über 64 Jahre</option>
+    </select>
+
+    <label for="nachricht">Nachricht (optional):</label>
+    <textarea id="nachricht" name="Nachricht" rows="5" placeholder="Deine Nachricht …"></textarea>
+
+    <label style="margin-top: 20px; display: block; font-size: 14px; color: #aaa;">
+      <input type="checkbox" name="Datenschutz" required style="margin-right: 10px;">
+      Ich erkläre mich mit der Verarbeitung und Speicherung meiner angegebenen Daten einverstanden. 
+      Ein Widerruf der Einwilligung sowie die Löschung der Daten ist jederzeit per E-Mail an 
+      <a href="mailto:sascha@provirahn.com" style="color: #00f0ff;">sascha@provirahn.com</a> möglich.
+    </label>
+
+    <div class="cta">
+      <button type="submit">Jetzt kostenlos anmelden</button>
+    </div>
+  </form>
+</section>
+
+<footer>
+  © 2025 ProviRahn x REAL LIFE. Empower your wealth.
+</footer>
+
+</body>
+</html>
